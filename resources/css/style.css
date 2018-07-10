@@ -1,0 +1,140 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Helvetica;
+  color: seashell;
+  background: black;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+h2, h4{
+  margin:10px;
+}
+
+/* Header Section */
+header{
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+header img{
+  margin-left: 10px;
+  height: 50px
+}
+
+header nav{
+  min-width: 430px;
+}
+
+header span a{
+    color: seashell;
+    margin: 20px;
+}
+
+/* Mission Section */
+.mission{
+  display: flex;
+  height: 700px;
+  background: url(../images/img-mission-background.jpg) no-repeat center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ourmission{
+  width: 1200px;
+  background-color: black
+}
+
+.ourmission h2, .ourmission h4{
+  display: flex;
+  justify-content: center;
+}
+
+/* Feature Section */
+.feature{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.monthtea{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.tealist1, .tealist2{
+  width: 1000px;
+  display: flex;
+}
+
+.tealist1{
+  justify-content: space-between;
+}
+
+.tealist2{
+  justify-content: center;
+}
+
+.tealist2 div{
+  margin: auto 25px;
+}
+
+.tealist1 img, .tealist2 img{
+  width: 300px;
+  height: 200px;
+}
+
+.tealist1 div, .tealist2 div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Location Section */
+.locations{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  background: url(../images/img-locations-background.jpg) no-repeat
+  center;
+}
+
+.locations h2{
+  margin-bottom: 10px;
+}
+
+.locationdetails{
+  display: flex;
+  justify-content: center;
+}
+
+.locationdetails div{
+  width: 300px;
+  background-color: black;
+  opacity: 0.9;
+  margin: 5px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts{
+  display: flex;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+footer{
+  margin-left: 20px;
+}
