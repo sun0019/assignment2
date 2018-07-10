@@ -15,10 +15,14 @@ h2, h4{
 /* Header Section */
 header{
   height: 69px;
+  width: 100%;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 2
 }
 
 header img{
@@ -52,6 +56,13 @@ header span a{
 .ourmission h2, .ourmission h4{
   display: flex;
   justify-content: center;
+}
+
+/* Container position adjustment*/
+.container{
+  position: relative;
+  top: 69px;
+  z-index: 1;
 }
 
 /* Feature Section */
